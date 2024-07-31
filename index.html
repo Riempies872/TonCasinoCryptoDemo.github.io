@@ -22,17 +22,18 @@
     });
 
     async function SendTransaction(){
-      const result = await tonConnectUI.sendTransaction(transaction)
-    }
-
-    const transaction = {
+      const transaction = {
     messages: [
         {
             address: "0QDKcC1PoEI3-3-wGDIlx1a1qvEqVagMhpy96Y0dq78LA1FK", // destination address
-            amount: "10" //Toncoin in nanotons
+            amount: "100" //Toncoin in nanotons
         }
     ]
 }
+      const result = await tonConnectUI.sendTransaction(transaction)
+    }
+
+  
 
 </script>
 <body>
