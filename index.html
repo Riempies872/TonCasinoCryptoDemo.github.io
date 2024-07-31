@@ -15,13 +15,14 @@
 
   async function connectToWallet() {
         const connectedWallet = await tonConnectUI.connectWallet();
-        console.log(connectedWallet);
     }
     connectToWallet().catch(error => {
         console.error("Error connecting to wallet:", error);
     });
 
     async function SendTransaction(){
+      alert(connectedWallet);
+      alert(connectedWallet.account.address);
       const transaction = {
     messages: [
         {
