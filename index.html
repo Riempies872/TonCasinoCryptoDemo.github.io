@@ -24,6 +24,7 @@
     async function SendTransaction(){
 
       const connectedWallet = await tonConnectUI.connectWallet();
+      alert(connectedWallet);
       const transaction = {
     messages: [
         {
