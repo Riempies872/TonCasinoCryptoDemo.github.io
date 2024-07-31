@@ -15,25 +15,28 @@
 
   async function connectToWallet() {
         const connectedWallet = await tonConnectUI.connectWallet();
+        console.log(connectedWallet);
     }
     connectToWallet().catch(error => {
         console.error("Error connecting to wallet:", error);
     });
 
     async function SendTransaction(){
-      alert(connectedWallet);
-      alert(connectedWallet.account.address);
       const transaction = {
     messages: [
         {
-            address: "0QDKcC1PoEI3-3-wGDIlx1a1qvEqVagMhpy96Y0dq78LA1FK", // destination address
-            amount: "20000000",//Toncoin in nanotons
-            payload: "This is a test" 
+            address: connectedWallet.account.address, // destination address
+            amount: "20000000",
+            payload: "This is a test" //Toncoin in nanotons
         }
     ]
 }
-debugger;
+try {
       const result = await tonConnectUI.sendTransaction(transaction)
+}
+catch (error){
+  console.error("Error sending transaction:", error);
+}
     }
 
   
