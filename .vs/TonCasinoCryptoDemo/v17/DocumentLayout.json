@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Dev\\TonCasinoCryptoDemo.github.io\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C5B4612-E438-4A8B-8319-AB645CF104D8}|src\\TonCasinoCryptoDemo.esproj|c:\\dev\\toncasinocryptodemo.github.io\\src\\tonconnect-manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6C5B4612-E438-4A8B-8319-AB645CF104D8}|src\\TonCasinoCryptoDemo.esproj|solutionrelative:src\\tonconnect-manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6C5B4612-E438-4A8B-8319-AB645CF104D8}|src\\TonCasinoCryptoDemo.esproj|c:\\dev\\toncasinocryptodemo.github.io\\src\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C5B4612-E438-4A8B-8319-AB645CF104D8}|src\\TonCasinoCryptoDemo.esproj|solutionrelative:src\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C5B4612-E438-4A8B-8319-AB645CF104D8}|src\\TonCasinoCryptoDemo.esproj|c:\\dev\\toncasinocryptodemo.github.io\\src\\nuget.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{6C5B4612-E438-4A8B-8319-AB645CF104D8}|src\\TonCasinoCryptoDemo.esproj|solutionrelative:src\\nuget.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C5B4612-E438-4A8B-8319-AB645CF104D8}|src\\TonCasinoCryptoDemo.esproj|c:\\dev\\toncasinocryptodemo.github.io\\src\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6C5B4612-E438-4A8B-8319-AB645CF104D8}|src\\TonCasinoCryptoDemo.esproj|solutionrelative:src\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6C5B4612-E438-4A8B-8319-AB645CF104D8}|src\\TonCasinoCryptoDemo.esproj|c:\\dev\\toncasinocryptodemo.github.io\\src\\tonconnect-manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C5B4612-E438-4A8B-8319-AB645CF104D8}|src\\TonCasinoCryptoDemo.esproj|solutionrelative:src\\tonconnect-manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1857,
-          "SelectedChildIndex": 33,
+          "SelectedChildIndex": 35,
           "Children": [
             {
               "$type": "Bookmark",
@@ -158,13 +158,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "tonconnect-manifest.json",
               "DocumentMoniker": "C:\\Dev\\TonCasinoCryptoDemo.github.io\\src\\tonconnect-manifest.json",
               "RelativeDocumentMoniker": "src\\tonconnect-manifest.json",
               "ToolTip": "C:\\Dev\\TonCasinoCryptoDemo.github.io\\src\\tonconnect-manifest.json",
               "RelativeToolTip": "src\\tonconnect-manifest.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-07-30T13:54:22.3Z",
               "EditorCaption": ""
@@ -184,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "launch.json",
               "DocumentMoniker": "C:\\Dev\\TonCasinoCryptoDemo.github.io\\src\\.vscode\\launch.json",
               "RelativeDocumentMoniker": "src\\.vscode\\launch.json",
@@ -192,7 +192,12 @@
               "RelativeToolTip": "src\\.vscode\\launch.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-30T13:54:43.212Z"
+              "WhenOpened": "2024-07-30T13:54:43.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
             }
           ]
         },
