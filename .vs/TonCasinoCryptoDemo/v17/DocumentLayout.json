@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Dev\\TonCasinoCryptoDemo.github.io\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C5B4612-E438-4A8B-8319-AB645CF104D8}|src\\TonCasinoCryptoDemo.esproj|c:\\dev\\toncasinocryptodemo.github.io\\src\\tonconnect-manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C5B4612-E438-4A8B-8319-AB645CF104D8}|src\\TonCasinoCryptoDemo.esproj|solutionrelative:src\\tonconnect-manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C5B4612-E438-4A8B-8319-AB645CF104D8}|src\\TonCasinoCryptoDemo.esproj|c:\\dev\\toncasinocryptodemo.github.io\\src\\nuget.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6C5B4612-E438-4A8B-8319-AB645CF104D8}|src\\TonCasinoCryptoDemo.esproj|solutionrelative:src\\nuget.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C5B4612-E438-4A8B-8319-AB645CF104D8}|src\\TonCasinoCryptoDemo.esproj|c:\\dev\\toncasinocryptodemo.github.io\\src\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C5B4612-E438-4A8B-8319-AB645CF104D8}|src\\TonCasinoCryptoDemo.esproj|solutionrelative:src\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1857,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 33,
           "Children": [
             {
               "$type": "Bookmark",
@@ -142,6 +155,44 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "tonconnect-manifest.json",
+              "DocumentMoniker": "C:\\Dev\\TonCasinoCryptoDemo.github.io\\src\\tonconnect-manifest.json",
+              "RelativeDocumentMoniker": "src\\tonconnect-manifest.json",
+              "ToolTip": "C:\\Dev\\TonCasinoCryptoDemo.github.io\\src\\tonconnect-manifest.json",
+              "RelativeToolTip": "src\\tonconnect-manifest.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-30T13:54:22.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "nuget.config",
+              "DocumentMoniker": "C:\\Dev\\TonCasinoCryptoDemo.github.io\\src\\nuget.config",
+              "RelativeDocumentMoniker": "src\\nuget.config",
+              "ToolTip": "C:\\Dev\\TonCasinoCryptoDemo.github.io\\src\\nuget.config",
+              "RelativeToolTip": "src\\nuget.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-30T13:54:50.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launch.json",
+              "DocumentMoniker": "C:\\Dev\\TonCasinoCryptoDemo.github.io\\src\\.vscode\\launch.json",
+              "RelativeDocumentMoniker": "src\\.vscode\\launch.json",
+              "ToolTip": "C:\\Dev\\TonCasinoCryptoDemo.github.io\\src\\.vscode\\launch.json",
+              "RelativeToolTip": "src\\.vscode\\launch.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-30T13:54:43.212Z"
             }
           ]
         },
