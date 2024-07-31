@@ -22,13 +22,10 @@
     });
 
     async function SendTransaction(){
-
-      const connectedWallet = await tonConnectUI.connectWallet();
-      alert(connectedWallet);
       const transaction = {
     messages: [
         {
-            address: connectedWallet.account.address, // destination address
+            address: "EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c", // destination address
             amount: "20000000",
             payload: "This is a test" //Toncoin in nanotons
         }
