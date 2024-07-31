@@ -13,8 +13,11 @@
     buttonRootId: 'ton-connect'
   });
 
+  let connectedWallet = "I'm global!";
+
   async function connectToWallet() {
-        const connectedWallet = await tonConnectUI.connectWallet();
+    connectedWallet = await tonConnectUI.connectWallet();
+        debugger;
         console.log(connectedWallet);
     }
     connectToWallet().catch(error => {
@@ -22,16 +25,17 @@
     });
 
     async function SendTransaction(){
-      const transaction = {
+    const transaction = {
     messages: [
         {
-            address: "kQDKcC1PoEI3-3-wGDIlx1a1qvEqVagMhpy96Y0dq78LAwyP", // destination address
+            address: connectedWallet.account.address, // destination address
             amount: "0.01",
             payload: btoa("This is a test") //Toncoin in nanotons
         },
     ]
 }
 try {
+  debugger;
       const result = await tonConnectUI.sendTransaction(transaction)
 }
 catch (error){
